@@ -31,12 +31,12 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ### Screenshot
 
-![](./live-site-screenshot.jpg)
+![](./live-site-screenshot.png)
 
 ### Links
 
-- Solution URL: [Click to check my solution at Frontend Mentor]()
-- Live Site URL: [Click to check the live site]()
+- Solution URL: [Click to check my solution at Frontend Mentor](https://github.com/CGM-ThanHtike/Qr-code-component-Frontend-Mentor)
+- Live Site URL: [Click to check the live site](https://cgm-thanhtike.github.io/Qr-code-component-Frontend-Mentor/)
 
 ## My process
 
