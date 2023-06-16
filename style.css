@@ -5,6 +5,18 @@
   --clr-neutral-400: hsl(220, 15%, 55%);
   --clr-neutral-900: hsl(218, 44%, 22%);
   --clr-body: hsl(212, 45%, 89%);
+
+  --shadow-color: 213deg 19% 69%;
+  --shadow-elevation-high:
+    0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.18),
+    1px 1.9px 2.4px -0.3px hsl(var(--shadow-color) / 0.18),
+    1.7px 3.4px 4.3px -0.7px hsl(var(--shadow-color) / 0.19),
+    2.7px 5.5px 7px -1px hsl(var(--shadow-color) / 0.19),
+    4.3px 8.5px 10.9px -1.4px hsl(var(--shadow-color) / 0.19),
+    6.6px 13.2px 16.8px -1.7px hsl(var(--shadow-color) / 0.19),
+    9.9px 19.8px 25.2px -2.1px hsl(var(--shadow-color) / 0.19),
+    14.5px 29px 37px -2.4px hsl(var(--shadow-color) / 0.2);
+
 }
 
 body {
@@ -19,11 +31,12 @@ body {
 }
 
 .card {
-  max-width: 17.813rem;
+  max-width: 20.313rem;
   padding: 1rem;
   border-radius: 1.25rem;
   background: var(--clr-neutral-100);
   text-align: center;
+  box-shadow: var(--shadow-elevation-high);
 }
 
 .card .card-image img {
@@ -31,17 +44,17 @@ body {
 }
 
 .card .card-content {
-  padding: 1.25rem 0.75rem;
+  padding: 1.25rem 0.95rem;
 }
 
 .card .card-content .card-header {
   line-height: 1.2;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
   color: var(--clr-neutral-900);
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   font-weight: 700;
 }
 
 .card .card-content p {
-  font-size: 0.85rem;
+  font-size: 0.938rem;
 }
